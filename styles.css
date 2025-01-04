@@ -1,3 +1,30 @@
 * {
-    font-size: large;
+    font-size: 20px;
 }
+body {
+    background-color: #211F1F;
+}
+.btn {
+    width: 202px;
+    height: 76px;
+    border-radius: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.f-27 {
+    font-size: 27px;
+}
+
+.f-25 {
+    font-size: 25px;
+}
+
+.fw-bold {
+    font-weight: 700!important;
+}
+
+.text-logo {
+    letter-spacing: 4px;
+}
+

@@ -9,59 +9,62 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/t-scroll@1.1.10/public/theme/css/t-scroll.min.css" integrity="sha256-SWR3SIj39kpNYlXQ7M3DztBBAeYU0JivX6Flg3w/fDw=" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
 </head>
-<body data-bs-theme="dark">
-    <div class="container t-animated fadeRight" data-t-show="1">
+<body data-bs-theme="dark" class="d-none d-md-block">
+    <div class="container my-3" data-t-show="1">
         <div class="navbar navbar-expand-lg rounded-4 py-3 ">
             <div class="container-fluid">
-            <a class="navbar-brand fw-bold fs-3" href="#">
-                <i class="bi bi-code-slash d-inline-block align-text-center fs-3 px-1"></i>WEB<span class="text-danger">DEV</span></a>
+            <a class="navbar-brand fw-bold fs-3 text-logo" href="#">
+                 <img class="px-1 " src="logo.svg"/>WEB<span class="text-danger fw-medium">DEV</span></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Переключатель навигации">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav justify-content-center flex-grow-1">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                </li>
-                <!--li class="nav-item">
-                    <a class="nav-link" href="#">Features</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link">About</a>
-                </li-->
+                <ul class="navbar-nav justify-content-end flex-grow-1 gap-5">
+                    <button onclick="window.open('https://t.me/lomar325', '_blank');" class="btn btn-light btn-lg fw-bold f-27"><img src="vk.svg"/> Telegram</button>
+                    <button onclick="window.open('tel:+19803714319', '_blank');" class="btn btn-light btn-lg fw-bold f-25">(980)371-4319</button>
                 </ul>
-                <button type="button" class="btn btn-danger">Contact us</button>
             </div>
+            </div>
+        </div>
+    </div>
+    <div class="container pt-5">
+        <div class="d-flex flex-column flex-md-row align-items-center">
+            <div>
+                <h2 class="mb-5 text-light">High Performance Website Development</h2>
+                <div class="card rounded-4" data-bs-theme="light">
+                    <div class="card-body">
+                        <p class="">We create modern and functional websites that help businesses connect effectively with their clients.</p>
+                        <hr class="border border-danger border-1 opacity-100">
+                        <div class="py-1">
+                            <img class="pe-2" src="icon1.svg"/> 
+                            <span class="fw-bold fs-4">24/7 support</span>
+                        </div>
+                        <div class="py-1">
+                            <img class="pe-2" src="icon2.svg"/> 
+                            <span class="fw-bold fs-4">low prices</span>
+                        </div>
+                        <div class="py-1">
+                            <img class="pe-2" src="icon3.svg"/> 
+                            <span class="fw-bold fs-4">SEO</span>
+                        </div>
+                        <div class="py-1">
+                            <img class="pe-2" src="icon4.svg"/> 
+                            <span class="fw-bold fs-4">custom design</span>
+                        </div>
+                        <div class="py-1">
+                            <img class="pe-2" src="icon5.svg"/> 
+                            <span class="fw-bold fs-4">CMS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <img class="w-sm-100"src="main.svg"/>
             </div>
         </div>
     </div>
     <div class="container">
-        <div class="shadow p-5 mt-5 bg-body-tertiary rounded-5 t-animated fadeLeft" data-t-show="1.2">
-            <h1 class="display-5 f-bold fw-bold text-center text-xl-start"><i class="bi bi-code-slash d-inline-block align-text-center display-5 px-1"></i>WEB<span class="text-danger">DEV</span></h1>
-            <div class="d-flex flex-column flex-xl-row">
-                <div class="flew order-2 order-xl-1">
-                    <p class="fs-4">We create modern and functional websites that help businesses connect effectively with their clients. Our team develops projects with unique designs, intuitive navigation, and responsive layouts, ensuring a seamless experience across all devices. We aim to make every website a powerful tool for driving growth and success.</p>
-                        <div class="d-grid gap-2 d-md-flex justify-content-center justify-content-xl-start mb-4">
-                            <button type="button" data-bs- class="btn btn-danger btn-lg px-5 fw-bold mx-md-0 mx-4">Contact us!</button>
-                        </div>
-                </div>
-                <div class="order-1 col-xl-4 col-12">
-                    <img class="img-fluid" src="https://i.pinimg.com/originals/d3/62/8c/d3628c3569573d0882a16af7fe30fff9.png" alt="Photo">
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container t-animated fadeUp" data-t-show="1.4">
-        <footer class="py-3 my-4">
-          <!--ul class="nav justify-content-center border-bottom pb-3 mb-3">
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
-          </ul-->
+        <footer class="pt-3 mt-4">
           <p class="text-center text-body-secondary">© 2024 WEBDEV, Inc</p>
         </footer>
     </div>
